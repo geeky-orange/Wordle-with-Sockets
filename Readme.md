@@ -20,22 +20,22 @@ In the command line, please paste the following code according to your need and 
 
 - To establish connect to a specific port without TLS encryption
 ```ruby
-$ python client.py <-p port> <hostname> <Northeastern-username>
+$ python client.py <-p port> <hostname> <username>
 ```
 
 - To establish connect to a  port with TLS encryption
 ```ruby
-$ python client.py <-s> <hostname> <Northeastern-username>
+$ python client.py <-s> <hostname> <username>
 ```
 
 - Since the flags <-s> and <-p> are options so without them and with it would connect to standard port
 
 ```ruby
-$ python client.py <-s> <-p port> <hostname> <Northeastern-username>
+$ python client.py <-s> <-p port> <hostname> <username>
 ```
 
 ```ruby
-$ python client.py <hostname> <Northeastern-username>
+$ python client.py <hostname> <username>
 ```
 
 
